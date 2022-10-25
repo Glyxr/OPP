@@ -3,6 +3,7 @@
 int Student::count = 0;
 Student::Student()
 {
+
 	name = NULL;
 	age = 0;
 }
