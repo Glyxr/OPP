@@ -1,3 +1,67 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   源.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1419,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1418): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),double&,double&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Pr=bool (__cdecl *&)(int,int),
+              _Ty1=double &,
+              _Ty2=double &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7264): message : 查看对正在编译的函数 模板 实例化“_BidIt *std::_Insertion_sort_unchecked<_RanIt,bool(__cdecl *)(int,int)>(const _BidIt,const _BidIt,_Pr)”的引用
+          with
+          [
+              _BidIt=double *,
+              _RanIt=double *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7294): message : 查看对正在编译的函数 模板 实例化“void std::_Sort_unchecked<_RanIt,bool(__cdecl *)(int,int)>(_RanIt,_RanIt,__int64,_Pr)”的引用
+          with
+          [
+              _RanIt=double *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+D:\Git\git-demo\Project1\源.cpp(68): message : 查看对正在编译的函数 模板 实例化“void std::sort<double*,bool(__cdecl *)(int,int)>(const _RanIt,const _RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=double *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1419,20): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1419,62): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1419,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7198,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7275): message : 查看对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,bool(__cdecl *)(int,int)>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=double *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7198,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7202,92): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7202,82): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7213,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7213,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7226,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7226,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1421,57): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7140): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),double&,double&,0>(_Pr,_Ty1,_Ty2) noexcept(false)”的引用
+          with
+          [
+              _Pr=bool (__cdecl *&)(int,int),
+              _Ty1=double &,
+              _Ty2=double &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(7264): message : 查看对正在编译的函数 模板 实例化“_BidIt *std::_Insertion_sort_unchecked<_RanIt,bool(__cdecl *)(int,int)>(const _BidIt,const _BidIt,_Pr)”的引用
+          with
+          [
+              _BidIt=double *,
+              _RanIt=double *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1421,50): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1423,9): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Git\git-demo\Project1\源.cpp(37): warning C4715: “commondivisor”: 不是所有的控件路径都返回值
+D:\Git\git-demo\Project1\源.cpp(48): warning C4715: “commondivisor”: 不是所有的控件路径都返回值
+D:\Git\git-demo\Project1\源.cpp(26): warning C4715: “commondivisor”: 不是所有的控件路径都返回值
   Project1.vcxproj -> D:\Git\git-demo\Project1\x64\Debug\1.exe
