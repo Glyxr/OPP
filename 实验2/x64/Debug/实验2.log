@@ -1,2 +1,3 @@
 ﻿  源.cpp
+D:\Git\git-demo\实验2\源.cpp(128,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
   实验2.vcxproj -> D:\Git\git-demo\Project1\x64\Debug\作业二10.27.exe
