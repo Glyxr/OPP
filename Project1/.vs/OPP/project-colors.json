@@ -20,7 +20,12 @@
       "ProjectGuid": "a9c75e6b-4471-41a7-b3a2-a727a52355c9",
       "DisplayName": "作业二10.27",
       "ColorIndex": 2
+    },
+    "900c8e5b-cffa-4640-b88a-5226f7a2302c": {
+      "ProjectGuid": "900c8e5b-cffa-4640-b88a-5226f7a2302c",
+      "DisplayName": "Project3",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
