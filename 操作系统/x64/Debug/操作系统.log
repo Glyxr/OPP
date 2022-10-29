@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\Git\git-demo\操作系统\源.cpp(170,13): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Git\git-demo\操作系统\源.cpp(199,13): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Git\git-demo\操作系统\源.cpp(226,5): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.

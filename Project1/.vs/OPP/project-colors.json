@@ -25,7 +25,12 @@
       "ProjectGuid": "900c8e5b-cffa-4640-b88a-5226f7a2302c",
       "DisplayName": "Project3",
       "ColorIndex": 3
+    },
+    "dca6ef7e-67d7-4a18-b2ec-669e4c25763c": {
+      "ProjectGuid": "dca6ef7e-67d7-4a18-b2ec-669e4c25763c",
+      "DisplayName": "操作系统",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

@@ -1,4 +1,4 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(1.vcxproj, Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(1.vcxproj, Project1.vcxproj, 作业10.27.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   源.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1419,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1418): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),double&,double&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
@@ -61,7 +61,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
           ]
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1421,50): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(1423,9): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-D:\Git\git-demo\Project1\源.cpp(26): warning C4715: “commondivisor”: 不是所有的控件路径都返回值
 D:\Git\git-demo\Project1\源.cpp(37): warning C4715: “commondivisor”: 不是所有的控件路径都返回值
 D:\Git\git-demo\Project1\源.cpp(48): warning C4715: “commondivisor”: 不是所有的控件路径都返回值
-  Project1.vcxproj -> D:\Git\git-demo\Project1\x64\Debug\作业10.27.exe
+D:\Git\git-demo\Project1\源.cpp(26): warning C4715: “commondivisor”: 不是所有的控件路径都返回值
+  Project1.vcxproj -> D:\Git\git-demo\Project1\x64\Debug\实验2-2.exe
