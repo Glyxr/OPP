@@ -30,7 +30,12 @@
       "ProjectGuid": "dca6ef7e-67d7-4a18-b2ec-669e4c25763c",
       "DisplayName": "操作系统",
       "ColorIndex": 4
+    },
+    "cde55ee6-109b-49b6-8530-4f1d56f9d542": {
+      "ProjectGuid": "cde55ee6-109b-49b6-8530-4f1d56f9d542",
+      "DisplayName": "类与类之间的关系",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }

@@ -1,4 +1,4 @@
-#include"my.h"
+#include"Student.h"
 #include<string.h>
 int Student::count = 0;
 Student::Student()

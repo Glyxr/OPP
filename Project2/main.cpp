@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-#include"my.h"
+#include"Student.h"
+#include"Graduate.h"
 const int N = 10;
 void menu();
 void OutputStu(const Student* array);
@@ -10,6 +11,10 @@ bool InsertStu(Student* array);
 bool DeleteStu(Student* array, char* na);
 int main()
 {
+	//
+	/*Graduate a;
+	cout << a.GetAge() << endl;*/
+	//
 	Student array[N];
 	int choice;
 	char na[20];
