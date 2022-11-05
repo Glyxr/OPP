@@ -1,10 +1,6 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Project2.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  Function.cpp
   main.cpp
-D:\Git\git-demo\Project2\Graduate.h(14,3): error C2248: “Student::name”: 无法访问 private 成员(在“Student”类中声明)
-D:\Git\git-demo\Project2\Student.h(10): message : 参见“Student::name”的声明
-D:\Git\git-demo\Project2\Student.h(7): message : 参见“Student”的声明
-D:\Git\git-demo\Project2\Graduate.h(15,3): error C2248: “Student::age”: 无法访问 private 成员(在“Student”类中声明)
-D:\Git\git-demo\Project2\Student.h(14): message : 参见“Student::age”的声明
-D:\Git\git-demo\Project2\Student.h(7): message : 参见“Student”的声明
+D:\Git\git-demo\Project2\main.cpp(84,6): warning C4101: “i”: 未引用的局部变量
+  Function.cpp
   正在生成代码...
+  Project2.vcxproj -> D:\Git\git-demo\Project1\x64\Debug\学生信息服务管理平台.exe
