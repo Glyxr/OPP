@@ -16,6 +16,10 @@ public:
 	{
 		grade = 'B';
 	}
+	Student(const Student& per)//¿½±´
+	{
+		
+	}
 	~Student() {}
 	void Input()
 	{
@@ -30,7 +34,8 @@ public:
 	}
 	void Evaluate()
 	{
-		test_overall = (test_class[1] + test_class[2] + test_mid) * 0.25 + test_final * 0.5;
+		test_overall = (test_class[1] + test_class[0] + test_mid) * 0.25 + test_final * 0.5;
+		printf("%d", test_overall);
 		if (test_overall >= 90)
 			grade = 'A';
 		else if (test_overall >= 80)

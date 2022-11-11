@@ -9,7 +9,7 @@ protected:
 	char tutor[20];//导师
 	char research[50];//研究方向
 public:
-	Graduate()
+	Graduate()//没有返回类型，
 	{
 		name = NULL;
 		age = 20;
