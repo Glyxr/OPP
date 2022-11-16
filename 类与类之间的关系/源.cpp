@@ -46,8 +46,3 @@ public:
 
 };
 //私有成员不可被继承
-
-int main()
-{
-	return 0;
-}
