@@ -41,22 +41,22 @@ void f2(Derived& obj)
 	obj.Print();
 }
 
-int main()
-{
-	Derived d(200, 300); //Base::a = 400,a = 300
-	d.Print();//400,300
-	d.a = 400;//a = 400
-	d.Base::a = 500;//Base::a = 500
-	d.Base::Print();//500
-	Base* pb;
-	pb = &d;
-	pb->Print();//400(x)->500
-	//基类的指针访问指向派生类，访问的是基类的同名成员
-	f1(d);//500
-	//基类的引用成为派生类的别名时，访问的也是基类的同名成员
-	Derived* pd;
-	pd = &d;
-	pd->Print();//500 400
-	f2(d);//500 400
-	return 0;
-}
+//int main()
+//{
+//	Derived d(200, 300); //Base::a = 400,a = 300
+//	d.Print();//400,300
+//	d.a = 400;//a = 400
+//	d.Base::a = 500;//Base::a = 500
+//	d.Base::Print();//500
+//	Base* pb;
+//	pb = &d;
+//	pb->Print();//400(x)->500
+//	//基类的指针访问指向派生类，访问的是基类的同名成员
+//	f1(d);//500
+//	//基类的引用成为派生类的别名时，访问的也是基类的同名成员
+//	Derived* pd;
+//	pd = &d;
+//	pd->Print();//500 400
+//	f2(d);//500 400
+//	return 0;
+//}

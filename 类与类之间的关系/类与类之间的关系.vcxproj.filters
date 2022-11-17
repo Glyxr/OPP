@@ -30,5 +30,17 @@
     <ClCompile Include="x64\test4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="example5_10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="examplex5_11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example5_12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="文本.txt" />
   </ItemGroup>
 </Project>
