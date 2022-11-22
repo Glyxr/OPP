@@ -45,7 +45,12 @@
       "ProjectGuid": "522f52eb-e9eb-4343-a7f5-4628f5b86ff0",
       "DisplayName": "实验报告3",
       "ColorIndex": 7
+    },
+    "d1f6cdb5-8322-469d-b67d-d250b1884c39": {
+      "ProjectGuid": "d1f6cdb5-8322-469d-b67d-d250b1884c39",
+      "DisplayName": "师生信息管理系统",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }
