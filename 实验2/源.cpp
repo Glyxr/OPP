@@ -109,7 +109,7 @@ int MAX(int a, int b)
 }
 int main()
 {
-	int a[10];
+	int a[10] ;
 	int i, j, k, n;
 	cout << "请输入木棍的数目：";
 	cin >> n;

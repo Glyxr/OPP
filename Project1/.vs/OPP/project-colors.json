@@ -50,7 +50,22 @@
       "ProjectGuid": "d1f6cdb5-8322-469d-b67d-d250b1884c39",
       "DisplayName": "师生信息管理系统",
       "ColorIndex": 8
+    },
+    "15433359-b190-4a5a-9044-72eeeec2f3a3": {
+      "ProjectGuid": "15433359-b190-4a5a-9044-72eeeec2f3a3",
+      "DisplayName": "Test-11.29",
+      "ColorIndex": 9
+    },
+    "f5ccd147-3e13-4ed1-b466-fecb1072897b": {
+      "ProjectGuid": "f5ccd147-3e13-4ed1-b466-fecb1072897b",
+      "DisplayName": "实验4-1",
+      "ColorIndex": 10
+    },
+    "95047bbe-0d8b-47d6-bb55-091e98d2a02f": {
+      "ProjectGuid": "95047bbe-0d8b-47d6-bb55-091e98d2a02f",
+      "DisplayName": "C++primer",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 12
 }
