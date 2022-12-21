@@ -7,6 +7,7 @@ class Base
 protected:
 	int a;
 public:
+	void print() { cout << a << endl; }
 	Base(int x) :a(x)
 	{
 		cout << "Base a = " << a << endl;
@@ -49,9 +50,13 @@ public:
 
 class Derived :public Base1, public Base2
 {
+protected:
+	int a;
 public:
+	////int a;
 	Derived(int x, int y) :Base1(x, y),Base(3*x),Base2(2 * x, 2 * y)
 	{
+		Base::a = 1000;
 		//cout << "a = " << a << endl;
 		//cout << "Base::a = " << Base::a << endl;
 		cout << "Base1::a = " << Base1::a << endl;
@@ -65,8 +70,14 @@ public:
 	}
 };
 
-//int main()
+//class A
 //{
-//	Derived obj(10, 20);
-//	return 0;
-//}
+//protected:
+//	int a;
+//};
+int main()
+{
+	Derived obj(10, 20);
+	obj.Base::print();
+	return 0;
+}

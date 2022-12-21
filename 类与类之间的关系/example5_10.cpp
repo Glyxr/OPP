@@ -44,3 +44,4 @@ public:
 //	Derived obj(10, 20);
 //	return 0;
 //}
+//ËÄ½ÇÎÊÌâ
